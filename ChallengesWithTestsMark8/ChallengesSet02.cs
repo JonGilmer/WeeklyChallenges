@@ -84,10 +84,7 @@ namespace ChallengesWithTestsMark8
             }
         }
 
-        //******************
-        public long CountOfPositiveOddsBelowNumber(long number)
-        {
-            throw new NotImplementedException();
-        }
+        public long CountOfPositiveOddsBelowNumber(long number) => number <= 0 ? 0 : number / 2;
+
     }
 }
